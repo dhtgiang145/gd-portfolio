@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name": "Giang Do",
+    "occupation": "Web Developer",
+    "description": "Analytical - Achiever",
+    "image": "profile.png",
+    "bio": "HTML, CSS, Bootstrap, Javascript",
+    "contactmessage": "Please send any request to my email and I will respond to you as soon as possible",
+    "email": "g.do.226@westcliff.edu",
+    "phone": "888-888-8888",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "website": "http://www.giangdo.com",
+    "resumedownload": "http://giangdo.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/dhtgiang145",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/dhtgiang145/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/giangdht",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/dhtgiang145",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Full Stack Web Developer",
+    "education": [
+      {
+        "school": "Westcliff University",
+        "degree": "Graduate Coding Bootcamp Certificate",
+        "graduated": "June 2021",
+        "description": "MERN Stack"
+      },
+      {
+        "school": "California State University, Fullerton",
+        "degree": "Master of Science in Information Systems",
+        "graduated": "May 2017",
+        "description": "Business Analytics"
+      }
+    ],
+    "work": [
+      {
+        "company": "Giang Do Studio",
+        "title": "Freelance",
+        "years": "Present",
+        "description": "Open for freelance project"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "Javacript",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Pet Adoption Website",
+        "category": "Bootcamp project focus on front-end languages",
+        "image": "petadoption.jpg",
+        "url": "https://petadoption.com"
+      },
+      {
+        "title": "DZink Website",
+        "category": "A website for photography services",
+        "image": "dzink.jpg",
+        "url": "http://dzink.com"
+      },
+      {
+        "title": "Home Chef Food Order",
+        "category": "A website where food lover and authentic home chefs meet",
+        "image": "homechef.jpg",
+        "url": "http://www.homechef.com"
+      },
+      {
+        "title": "Portfolio Website",
+        "category": "My portfolio built with ReactJS",
+        "image": "portfolio.jpg",
+        "url": "http://www.giangdo.com"
+      },
+      {
+        "title": "Ethan Art Website",
+        "category": "Team project to update client website's frontend",
+        "image": "ethanart.jpg",
+        "url": "http://www.ethanart.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Test",
+        "user": "Test"
+      }
+    ]
+  }
+}
