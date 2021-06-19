@@ -4,6 +4,7 @@
     "occupation": "Web Developer",
     "description": "Analytical - Achiever",
     "image": "profile.png",
+    "logo":"gdlogo192.png",
     "bio": "HTML, CSS, Bootstrap, Javascript",
     "contactmessage": "Please send any request to my email and I will respond to you as soon as possible",
     "email": "g.do.226@westcliff.edu",
@@ -15,21 +16,15 @@
       "zip": ""
     },
     "website": "http://www.giangdo.com",
-    "resumedownload": "http://giangdo.com",
     "social": [
       {
         "name": "facebook",
         "url": "http://facebook.com/dhtgiang145",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
+        "className": "fa fa-facebook-square"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/dhtgiang145/",
+        "url": "https://www.linkedin.com/in/giang-do/",
         "className": "fa fa-linkedin"
       },
       {
@@ -100,13 +95,13 @@
       {
         "title": "Pet Adoption Website",
         "category": "Bootcamp project focus on front-end languages",
-        "image": "petadoption.jpg",
+        "image": "socaladoption2.png",
         "url": "https://petadoption.com"
       },
       {
         "title": "DZink Website",
         "category": "A website for photography services",
-        "image": "dzink.jpg",
+        "image": "dzink1.png",
         "url": "http://dzink.com"
       },
       {

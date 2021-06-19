@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class Resume extends Component {
   render() {
@@ -7,7 +8,7 @@ class Resume extends Component {
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
-            <h3>{education.school}</h3>
+            <h4>{education.school}</h4>
             <p className="info">
               {education.degree} <span>&bull;</span>
               <em className="date">{education.graduated}</em>
@@ -19,7 +20,7 @@ class Resume extends Component {
       var work = this.props.data.work.map(function (work) {
         return (
           <div key={work.company}>
-            <h3>{work.company}</h3>
+            <h4>{work.company}</h4>
             <p className="info">
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
@@ -43,9 +44,9 @@ class Resume extends Component {
       <section id="resume">
         <div className="row education">
           <div className="three columns header-col">
-            <h1>
+            <h2>
               <span>Education</span>
-            </h1>
+            </h2>
           </div>
 
           <div className="nine columns main-col">
@@ -57,9 +58,9 @@ class Resume extends Component {
 
         <div className="row work">
           <div className="three columns header-col">
-            <h1>
+            <h2>
               <span>Work</span>
-            </h1>
+            </h2>
           </div>
 
           <div className="nine columns main-col">{work}</div>
@@ -67,9 +68,9 @@ class Resume extends Component {
 
         <div className="row skill">
           <div className="three columns header-col">
-            <h1>
+            <h2>
               <span>Skills</span>
-            </h1>
+            </h2>
           </div>
 
           <div className="nine columns main-col">

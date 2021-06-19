@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Footer extends Component {
   render() {
@@ -19,14 +21,10 @@ class Footer extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">{networks}</ul>
-
             <ul className="copyright">
-              <li>&copy; Copyright 2017 Tim Baker</li>
+              <li>&copy; Copyright 2021 Giang Do</li>
               <li>
-                Design by
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                  Styleshout
-                </a>
+                Design by Giang Do
               </li>
             </ul>
           </div>
