@@ -22,10 +22,11 @@ class Header extends Component {
       <header id="home">
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
+            <h1 className="responsive-headline">Hello, I'm {name}.</h1>
             <h3>
-              I'm a <span>{occupation}</span>. {description}.
+              <span>{occupation}</span>
             </h3>
+            <h4>{description}</h4>
             <hr />
             <ul className="social">{networks}</ul>
           </div>

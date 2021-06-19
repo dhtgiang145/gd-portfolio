@@ -29,13 +29,26 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
-        var className = "bar-expand " + skills.name.toLowerCase();
+      var reoderSkills = this.props.data.skills.sort((a, b) =>
+        a.level < b.level ? 1 : -1
+      );
+      var skills = reoderSkills.map(function (skills) {
         return (
-          <li key={skills.name}>
-            <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
-          </li>
+          <div className="bg-light" key={skills.name}>
+            <div className="row bg-light px-2">{skills.name}</div>
+            <div className="progress row bg-light px-2">
+              <div
+                style={{ width: skills.level }}
+                className="progress-bar bg-success"
+                role="progressbar"
+                aria-valuenow=""
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                {skills.level}
+              </div>
+            </div>
+          </div>
         );
       });
     }
@@ -76,8 +89,8 @@ class Resume extends Component {
           <div className="nine columns main-col">
             <p>{skillmessage}</p>
 
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
+            <div className="bars d-flex justify-content-center my-2 py-2">
+              <div className="skills col-5">{skills}</div>
             </div>
           </div>
         </div>

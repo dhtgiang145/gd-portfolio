@@ -24,16 +24,17 @@ class Contact extends Component {
           </div>
         </div>
 
-        <div className="row">
-          <div className="eight columns">
+        <div className="row justify-content-center">
+          <div className="col-3">
             <form action="" method="post" id="contactForm" name="contactForm">
               <fieldset>
-                <div>
+                <div className="form-group">
                   <label htmlFor="contactName">
                     Name <span className="required">*</span>
                   </label>
                   <input
                     type="text"
+                    className="form-control"
                     defaultValue=""
                     size="35"
                     id="contactName"
@@ -42,12 +43,13 @@ class Contact extends Component {
                   />
                 </div>
 
-                <div>
+                <div className="form-group">
                   <label htmlFor="contactEmail">
                     Email <span className="required">*</span>
                   </label>
                   <input
                     type="text"
+                    className="form-control"
                     defaultValue=""
                     size="35"
                     id="contactEmail"
@@ -56,10 +58,11 @@ class Contact extends Component {
                   />
                 </div>
 
-                <div>
+                <div className="form-group">
                   <label htmlFor="contactSubject">Subject</label>
                   <input
                     type="text"
+                    className="form-control"
                     defaultValue=""
                     size="35"
                     id="contactSubject"
@@ -68,20 +71,22 @@ class Contact extends Component {
                   />
                 </div>
 
-                <div>
+                <div className="form-group">
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
                   <textarea
-                    cols="50"
-                    rows="15"
+                    rows="10"
                     id="contactMessage"
                     name="contactMessage"
+                    className="form-control"
                   ></textarea>
                 </div>
 
                 <div>
-                  <button className="submit">Submit</button>
+                  <button className="submit m-3">
+                    Submit
+                  </button>
                   <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
                   </span>
@@ -100,7 +105,8 @@ class Contact extends Component {
             <div className="widget widget_contact">
               <h4>Email and Phone</h4>
               <p className="address">
-                {name}<br />
+                {name}
+                <br />
                 {email} <br />
                 <span>{phone}</span>
               </p>

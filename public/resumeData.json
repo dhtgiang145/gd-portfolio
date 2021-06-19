@@ -2,9 +2,9 @@
   "main": {
     "name": "Giang Do",
     "occupation": "Web Developer",
-    "description": "Analytical - Achiever",
+    "description": "Analytical - Achiever - Learner - Responsiblity - Focus",
     "image": "profile.png",
-    "logo":"gdlogo192.png",
+    "logo": "gdlogo192.png",
     "bio": "HTML, CSS, Bootstrap, Javascript",
     "contactmessage": "Please send any request to my email and I will respond to you as soon as possible",
     "email": "g.do.226@westcliff.edu",
@@ -96,31 +96,36 @@
         "title": "Pet Adoption Website",
         "category": "Bootcamp project focus on front-end languages",
         "image": "socaladoption2.png",
-        "url": "https://petadoption.com"
+        "url": "https://socal-adoption-gd.netlify.app",
+        "github": "https://github.com/dhtgiang145/socal-adoption.git"
       },
       {
         "title": "DZink Website",
-        "category": "A website for photography services",
+        "category": "A website for photography services (Currently Offline)",
         "image": "dzink1.png",
-        "url": "http://dzink.com"
+        "url": "",
+        "github": "https://github.com/dhtgiang145/Project2.git"
       },
       {
         "title": "Home Chef Food Order",
         "category": "A website where food lover and authentic home chefs meet",
         "image": "homechef.jpg",
-        "url": "http://www.homechef.com"
+        "url": "http://www.homechef.com",
+        "github": ""
       },
       {
         "title": "Portfolio Website",
         "category": "My portfolio built with ReactJS",
         "image": "portfolio.jpg",
-        "url": "http://www.giangdo.com"
+        "url": "http://www.giangdo.com",
+        "github": "https://github.com/dhtgiang145/gd-portfolio.git"
       },
       {
         "title": "Ethan Art Website",
-        "category": "Team project to update client website's frontend",
-        "image": "ethanart.jpg",
-        "url": "http://www.ethanart.com"
+        "category": "Team project to re-design client website's frontend",
+        "image": "ethanart.png",
+        "url": "https://ethanaart.com/portraits.html",
+        "github": "https://github.com/wu-bootcamp/web801_project1.git"
       }
     ]
   },

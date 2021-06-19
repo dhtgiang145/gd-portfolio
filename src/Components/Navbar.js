@@ -8,12 +8,12 @@ class Navbar extends Component {
     }
 
     return (
-      <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar sticky-top navbar-expand-md navbar-light bg-light">
+        <a className="navbar-brand" href="#home">
           <img id="navlogo" src={logo} alt="Giang Do Logo"></img>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -21,32 +21,32 @@ class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="#home">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#resume">
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">
                 Resume
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">
+            <li className="nav-item">
+              <a className="nav-link" href="#portfolio">
                 Works
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

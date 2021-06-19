@@ -3,6 +3,7 @@
 .App {
   text-align: center;
   font-family: "Benne", serif;
+  font-size: 1.2em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right top;
@@ -21,16 +22,28 @@ ul {
 }
 
 #profilepic {
-  width: 20em;
-  height: 20em;
+  width: 18em;
+  height: 18em;
 }
 
 #navlogo {
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
 }
 
 #projectimg {
   width: 30em;
   height: auto;
+}
+
+.progress {
+  height: 2em;
+}
+.progress-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  padding-left: 1em;
 }
