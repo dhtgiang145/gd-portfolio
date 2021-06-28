@@ -5,32 +5,16 @@
     "description": "Analytical - Achiever - Learner - Responsiblity - Focus",
     "image": "profile.png",
     "logo": "gdlogo192.png",
-    "bio": "HTML, CSS, Bootstrap, Javascript",
+    "bio": "I have been working as a Data Analyst for more than three years. I learn coding languages as a side interest and found it very fun. I am taking freelance project, please feel free to send me a message",
     "contactmessage": "Please send any request to my email and I will respond to you as soon as possible",
     "email": "g.do.226@westcliff.edu",
     "phone": "888-888-8888",
-    "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip": ""
-    },
     "website": "http://www.giangdo.com",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/dhtgiang145",
-        "className": "fa fa-facebook-square"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/giang-do/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/giangdht",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -65,36 +49,21 @@
     ],
     "skills": [
       {
-        "name": "Git",
-        "level": "60%"
+        "name": "Front-End",
+        "skill": "HTML5, CSS3, JS5, JQuery, RWD, Bootstrap 4"
+      },{
+        "name": "Back-End",
+        "skill": "NodeJS, Express, MongoDB, Mongoose, LESS/SASS, Authentication & Authorization"
       },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "90%"
-      },
-      {
-        "name": "Javacript",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "60%"
-      }
+      {"name":"Full Stack",
+      "skill": "ReactJS, OAuth, RestfulAPI, DataStructure, React Router"}
     ]
   },
   "portfolio": {
     "projects": [
       {
         "title": "Pet Adoption Website",
-        "category": "Bootcamp project focus on front-end languages",
+        "category": "My first Bootcamp project focus on front-end languages",
         "image": "socaladoption2.png",
         "url": "https://socal-adoption-gd.netlify.app",
         "github": "https://github.com/dhtgiang145/socal-adoption.git"
@@ -108,17 +77,10 @@
       },
       {
         "title": "Home Chef Food Order",
-        "category": "A website where food lover and authentic home chefs meet",
-        "image": "homechef.jpg",
+        "category": "A website where food lover and authentic home chefs meet (Currently Offline)",
+        "image": "homechef.png",
         "url": "http://www.homechef.com",
-        "github": ""
-      },
-      {
-        "title": "Portfolio Website",
-        "category": "My portfolio built with ReactJS",
-        "image": "portfolio.jpg",
-        "url": "http://www.giangdo.com",
-        "github": "https://github.com/dhtgiang145/gd-portfolio.git"
+        "github": "https://github.com/dhtgiang145/Project3.git"
       },
       {
         "title": "Ethan Art Website",

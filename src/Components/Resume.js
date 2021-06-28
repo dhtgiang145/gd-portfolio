@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 
 class Resume extends Component {
   render() {
@@ -29,24 +30,12 @@ class Resume extends Component {
           </div>
         );
       });
-      var reoderSkills = this.props.data.skills.sort((a, b) =>
-        a.level < b.level ? 1 : -1
-      );
-      var skills = reoderSkills.map(function (skills) {
+      var skills = this.props.data.skills.map(function (skills) {
         return (
-          <div className="bg-light" key={skills.name}>
-            <div className="row bg-light px-2">{skills.name}</div>
-            <div className="progress row bg-light px-2">
-              <div
-                style={{ width: skills.level }}
-                className="progress-bar bg-success"
-                role="progressbar"
-                aria-valuenow=""
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                {skills.level}
-              </div>
+          <div key={skills.name}>
+            <div className="row px-2">
+              <b> {skills.name}:</b>
+              <p>{skills.skill}</p>
             </div>
           </div>
         );
@@ -54,43 +43,40 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
-        <div className="row education">
-          <div className="three columns header-col">
+      <section className="container" id="resume">
+        <div className="education row align-items-center my-1">
+          <div className="col-6">
             <h2>
               <span>Education</span>
             </h2>
           </div>
-
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">{education}</div>
+          <div className="edulist col-6">
+            <div className="row">
+              <div>{education}</div>
             </div>
           </div>
         </div>
 
-        <div className="row work">
-          <div className="three columns header-col">
+        <div className="work row align-items-center my-2">
+          <div className="col-6">
             <h2>
               <span>Work</span>
             </h2>
           </div>
-
-          <div className="nine columns main-col">{work}</div>
+          <div className="worklist col-6">{work}</div>
         </div>
 
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h2>
-              <span>Skills</span>
+        <div className="skills row align-items-center my-2">
+          <div className="col-6">
+            <h2>  
+              <span className="text-white">Skills</span>
             </h2>
           </div>
 
-          <div className="nine columns main-col">
+          <div className="skillist col-6">
             <p>{skillmessage}</p>
-
-            <div className="bars d-flex justify-content-center my-2 py-2">
-              <div className="skills col-5">{skills}</div>
+            <div>
+              <div>{skills}</div>
             </div>
           </div>
         </div>

@@ -10,6 +10,12 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+// Library Creation
+library.add(fas);
+
 class App extends Component {
   constructor(props) {
     super(props);

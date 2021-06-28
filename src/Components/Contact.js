@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 
 class Contact extends Component {
   render() {
     if (this.props.data) {
       var name = this.props.data.name;
-      var phone = this.props.data.phone;
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
     return (
-      <section id="contact">
+      <section className="container" id="contact">
         <div className="row section-head">
           <div className="two columns header-col">
             <h2>
@@ -25,7 +25,7 @@ class Contact extends Component {
         </div>
 
         <div className="row justify-content-center">
-          <div className="col-3">
+          <div className="col-5">
             <form action="" method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div className="form-group">
@@ -103,12 +103,11 @@ class Contact extends Component {
 
           <aside className="four columns footer-widgets">
             <div className="widget widget_contact">
-              <h4>Email and Phone</h4>
+              <h4>Email Me At</h4>
               <p className="address">
                 {name}
                 <br />
                 {email} <br />
-                <span>{phone}</span>
               </p>
             </div>
           </aside>
